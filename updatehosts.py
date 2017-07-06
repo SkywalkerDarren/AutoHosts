@@ -2,7 +2,7 @@ import requests
 import os
 import tkinter
 
-hosts = os.path.expandvars("%SystemRoot%") + '\\System32\\drivers\\etc\\hosts2'
+hosts = os.path.expandvars("%SystemRoot%") + '\\System32\\drivers\\etc\\hosts'
 
 
 def request(url):
